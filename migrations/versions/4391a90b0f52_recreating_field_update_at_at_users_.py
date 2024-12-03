@@ -1,8 +1,8 @@
-"""creating field update_at at users table
+"""recreating field update_at at users table
 
-Revision ID: 0e40f8e9bb23
-Revises: e2f3ad5a7b58
-Create Date: 2024-12-02 17:24:48.979942
+Revision ID: 4391a90b0f52
+Revises: f6a919cc2853
+Create Date: 2024-12-03 15:03:11.524751
 
 """
 from typing import Sequence, Union
@@ -12,8 +12,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '0e40f8e9bb23'
-down_revision: Union[str, None] = 'e2f3ad5a7b58'
+revision: str = '4391a90b0f52'
+down_revision: Union[str, None] = 'f6a919cc2853'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
